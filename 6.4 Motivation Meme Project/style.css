@@ -1,0 +1,18 @@
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  /* background-color: black; */
+  text-transform: uppercase;
+}
+* {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+img {
+  border: 5px solid white;
+  width: 100%;
+}
+.div1 {
+  width: 50%;
+  margin-left: 25%;
+}
