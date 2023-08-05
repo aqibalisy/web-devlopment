@@ -1,0 +1,29 @@
+div {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+}
+.div1 {
+  background-color: #8be8e5;
+  padding: 1.25rem;
+  border: 10px solid black;
+}
+.div2 {
+  background-color: #61677a;
+  /* border-top: 20px solid black;
+  border-bottom: 20px solid black;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+  */
+
+  border: solid black;
+  border-width: 20px 10px;
+  
+}
+.div3 {
+  background-color: #e8ffce;
+  border: 10px solid black; 
+}
+p {
+  margin: 0;
+}
