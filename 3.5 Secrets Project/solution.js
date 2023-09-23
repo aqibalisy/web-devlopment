@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/check", (req, res) => {
-  if (userIsAuthorised===true) {
+  if (userIsAuthorised) {
     res.sendFile(__dirname + "/public/secret.html");
   } else {
     res.sendFile(__dirname + "/public/index.html");
